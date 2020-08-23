@@ -13,7 +13,6 @@ Product.init(
     id: {
       // Integer
       type: DataTypes.INTEGER,
-
       // Doesn't allow null values
       allowNull: false,
       // Set as primary key
@@ -43,7 +42,7 @@ Product.init(
       // Doesn't allow null values
       allowNull: false,
       // Set a default value of 10
-      defaultValue: [10],
+      defaultValue: 10,
       // Validates that the value is numeric
       validate: {
         isNumeric: true
